@@ -1,0 +1,140 @@
+.slider {
+    width: 100%;
+  }
+  
+  .slider-container {
+    position: relative;
+    overflow: hidden;
+    padding: 0 40px;
+    min-height: 500px;
+  }
+  
+  .slider-content {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide-btn {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    transition: all 0.3s ease;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .slide-btn:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .prev-btn {
+    left: 20px;
+  }
+  
+  .next-btn {
+    right: 20px;
+  }
+  
+  .pagination-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+    padding-bottom: 20px;
+  }
+  
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dot.active {
+    background: rgba(0, 0, 0, 0.4);
+    transform: scale(1.2);
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .slider-container {
+      padding: 0 40px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .slider-container {
+      padding: 0 35px;
+    }
+    
+    .slide-btn {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .slider-container {
+      padding: 0 30px;
+    }
+    
+    .slide-btn {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .slider-container {
+      padding: 0 25px;
+    }
+    
+    .slide-btn {
+      width: 28px;
+      height: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .slider-container {
+      padding: 0 20px;
+    }
+    
+    .slide-btn {
+      width: 25px;
+      height: 25px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .slide-btn {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+    
+    .slide-btn:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+    
+    .dot {
+      background: rgba(255, 255, 255, 0.2);
+    }
+    
+    .dot.active {
+      background: rgba(255, 255, 255, 0.4);
+    }
+  }

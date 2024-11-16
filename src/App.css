@@ -1,0 +1,19 @@
+
+
+.app {
+  min-height: 100vh;
+  background-color: #f4f5f8;
+  
+}
+
+
+.board {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.board-columns {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
