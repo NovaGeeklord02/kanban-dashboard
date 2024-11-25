@@ -4,9 +4,9 @@ A dynamic and responsive Kanban board application built with React, featuring cu
 ## Features
 🎯 Dynamic task organization with multiple grouping options
 
-Group by Status
-Group by User
-Group by Priority
+- Group by Status
+- Group by User
+- Group by Priority
 
 🔄 Flexible sorting capabilities
 
