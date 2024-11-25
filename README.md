@@ -10,19 +10,18 @@ A dynamic and responsive Kanban board application built with React, featuring cu
 
 🔄 Flexible sorting capabilities
 
-Priority-based sorting
-Title-based sorting
+- Priority-based sorting
+- Title-based sorting
 
-🔍 Real-time user search functionality
-📱 Fully responsive design for all devices
-💾 Local storage for view preferences
-🎨 Dark mode support
-⚡ Smooth horizontal navigation
+- 🔍 Real-time user search functionality
+- 📱 Fully responsive design for all devices
+- 💾 Local storage for view preferences
+- ⚡ Smooth horizontal navigation
 
 ## Tech Stack
 
-React 18 for UI components
-CSS3 with modern features
-Local Storage API
-REST API integration
-Mobile-first responsive design
+- React 18 for UI components
+- CSS3 with modern features
+- Local Storage API
+- REST API integration
+- Mobile-first responsive design
